@@ -1,0 +1,36 @@
+import { Items } from "@repo/db";
+import { connectToDatabase } from "../../../utils/database";
+import { Props } from "@repo/ui";
+import { fullData } from "../../../lib/fullData";
+
+export async function POST(req: Request) {
+  await connectToDatabase();
+  fullData.map(
+    async ({
+      name,
+      desc,
+      price,
+      oldPrice,
+      stock,
+      sold,
+      dateAdded,
+      totalStars,
+      type,
+      image,
+    }: Props) => {
+      await Items.create({
+        name,
+        desc,
+        price,
+        oldPrice,
+        stock,
+        sold,
+        dateAdded,
+        totalStars,
+        type,
+        image,
+      });
+    },
+  );
+}
+// .map\(

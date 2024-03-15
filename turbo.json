@@ -1,0 +1,32 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": ["**/.env.*local"],
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "env": [
+        "GITHUB_CLIENT_ID",
+        "GITHUB_CLIENT_SECRET",
+        "DISCORD_CLIENT_ID",
+        "DISCORD_CLIENT_SECRET",
+        "MONGODB_URI",
+        "MONDODB_DB",
+        "NEXTAUTH_URL",
+        "NEXTAUTH_URL_INTERNAL",
+        "NEXTAUTH_SECRET",
+        "NEXT_PUBLIC_TEST_STRIPE_PUBLISHABLE_KEY",
+        "STRIPE_SECRET_KEY",
+        "NODE_ENV"
+      ]
+    },
+    "lint": {},
+    "type-check": {},
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "clean": {
+      "cache": false
+    }
+  }
+}
