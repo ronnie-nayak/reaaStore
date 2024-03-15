@@ -60,17 +60,17 @@ export default function HomePage() {
       <div className="flex flex-col xl:flex-row justify-center items-center xl:py-8 xl:px-16 m-2">
         <Sections
           image="/home/ethnic.jpg"
-          path="/homepage/seafood"
+          path="/homepage/ethnic"
           title={"Beautiful Ethnic\nWear!"}
         />
         <Sections
           image="/home/modern.jpg"
-          path="/homepage/drink"
+          path="/homepage/western"
           title={"Latest Modern\nStyles"}
         />
         <Sections
           image="/home/casual.jpg"
-          path="/homepage/meat"
+          path="/homepage/western"
           title={"Everyday Casual\nComfort"}
         />
       </div>

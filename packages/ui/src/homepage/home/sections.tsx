@@ -45,7 +45,7 @@ export function Sections2({ title, image }: { title: string; image: string }) {
         </h1>
         <Link
           className="bg-white  p-4 rounded-full mb-4 hover:text-white transition-all duration-300 hover:bg-limeGreen"
-          href="/homepage/baking"
+          href="/homepage/western"
         >
           Shop Now
         </Link>

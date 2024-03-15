@@ -17,7 +17,7 @@ export function Banner() {
         <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center sm:mt-12 text-[4vw] sm:text-[1.5vw]">
           <Link
             className="flex gap-3 justify-start items-center bg-limeGreen text-white  p-4 rounded-full hover:text-limeGreen hover:bg-white transition-all duration-300"
-            href="/homepage/fruit"
+            href="/homepage/western"
           >
             <img src="/home/cart.svg" />
             <h2>Explore Shop</h2>
