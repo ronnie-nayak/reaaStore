@@ -6,8 +6,8 @@ import { Toaster } from "@repo/ui/components/ui/sonner";
 import Provider from "./provider";
 
 export const metadata: Metadata = {
-  title: "Eat Street",
-  description: "E-Commerce Grocery App",
+  title: "Reaa Fashion",
+  description: "E-Commerce Fashion Store",
 };
 const quicksand = Quicksand({
   subsets: ["latin"],
