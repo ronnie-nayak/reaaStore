@@ -97,7 +97,7 @@ export function Footer() {
             size="xl"
           />
         </div>
-        <small>© 2023 Eat Street Ronnie Nayak</small>
+        <small>© 2023 Reaa Fashion Ronnie Nayak</small>
       </div>
     </footer>
   );
